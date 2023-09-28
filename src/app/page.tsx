@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { IntercomProvider, useIntercom } from 'react-use-intercom';
 
-const INTERCOM_APP_ID = 'hzul9lbj';
+const INTERCOM_APP_ID = 'isn9f467';
 
 const Home = () => {
 
@@ -46,7 +46,7 @@ const HomePage = () => {
     };
 
     return (
-        <div className='w-full flex justify-center items-center'>
+        <div className='w-full h-s flex justify-center items-center'>
             <div className='flex justify-start flex-col gap-4'>
                 {
                     isOpened ?
